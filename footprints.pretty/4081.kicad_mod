@@ -1,0 +1,108 @@
+(footprint "4081"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.89 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6fbc7663-167c-41b2-adac-31adda36747b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "4081"
+		(at 0 -7.39 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2343be59-ff6b-4821-a463-8863cad941ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7382fde4-bb33-4292-81fe-bea977637507")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Vibration Switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ccb5634-a7bc-417a-8181-b4dc43912d05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9.25 -1.5)
+		(end 9.25 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e0c8d02f-1604-473f-9654-733b59755e7c")
+	)
+	(fp_rect
+		(start -9.652 -1.778)
+		(end 9.652 5.08)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f774204e-e770-40b2-8e6c-d7ca9f8af3fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.89 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d74f5e52-238b-47bb-8461-0a630923eca7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -6.5 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d21cd0b5-4c69-4ba7-ab75-9e8e9a0d9496")
+	)
+	(pad "2" thru_hole circle
+		(at 6.5 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a1ddba6-9914-4e6d-a43a-37a86552062a")
+	)
+	(embedded_fonts no)
+)
