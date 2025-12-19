@@ -43,3 +43,6 @@ fp-info-cache
 *.plt
 *.raw
 *.log
+
+# Fab Outputs
+/outputs
