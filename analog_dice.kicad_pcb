@@ -121,7 +121,7 @@
 		(tags "resistor")
 		(property "Reference" "R6"
 			(at 0 1.5 0)
-			(layer "F.SilkS")
+			(layer "User.2")
 			(uuid "b829ef0a-8f90-46e0-943a-b7b5edf0ba92")
 			(effects
 				(font
@@ -353,7 +353,7 @@
 		(tags "resistor")
 		(property "Reference" "R3"
 			(at 0 1.5 0)
-			(layer "F.SilkS")
+			(layer "User.2")
 			(uuid "f8b0b94e-2fcc-44a7-a953-25ff332496ab")
 			(effects
 				(font
@@ -585,7 +585,7 @@
 		(tags "LED")
 		(property "Reference" "D4"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "User.2")
 			(uuid "8403334c-94b8-430d-ad41-97f2f4be525f")
 			(effects
 				(font
@@ -858,7 +858,7 @@
 		(tags "resistor")
 		(property "Reference" "R5"
 			(at 0 1.5 0)
-			(layer "F.SilkS")
+			(layer "User.2")
 			(uuid "6ef3df70-0bff-4159-8697-5097e34ea42c")
 			(effects
 				(font
@@ -1090,7 +1090,7 @@
 		(tags "LED")
 		(property "Reference" "D1"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "User.2")
 			(uuid "79ceee78-5ee1-4181-ad16-adde6c4665f9")
 			(effects
 				(font
@@ -1363,7 +1363,7 @@
 		(tags "resistor")
 		(property "Reference" "R4"
 			(at 0 1.5 0)
-			(layer "F.SilkS")
+			(layer "User.2")
 			(uuid "9e539a39-53a0-4a31-b1f8-95a14cfe3b61")
 			(effects
 				(font
@@ -1594,8 +1594,8 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at 0 1.5 0)
-			(layer "F.SilkS")
+			(at 0 1.25 0)
+			(layer "User.2")
 			(uuid "aa0034a9-dcea-4665-bbde-9a9b5aa7e254")
 			(effects
 				(font
@@ -1827,7 +1827,7 @@
 		(tags "resistor")
 		(property "Reference" "R8"
 			(at 0 1.5 0)
-			(layer "F.SilkS")
+			(layer "User.2")
 			(uuid "3738cde1-e558-4004-a59c-a66dcbe6f3ea")
 			(effects
 				(font
@@ -2059,7 +2059,7 @@
 		(tags "resistor")
 		(property "Reference" "R7"
 			(at 0 1.5 0)
-			(layer "F.SilkS")
+			(layer "User.2")
 			(uuid "3e6f41d9-6d88-4675-98fb-a2de9e5c8784")
 			(effects
 				(font
@@ -2291,7 +2291,7 @@
 		(tags "LED")
 		(property "Reference" "D2"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "User.2")
 			(uuid "f2bf9938-f887-42c6-83d1-785510af8a0e")
 			(effects
 				(font
@@ -2877,7 +2877,7 @@
 		(tags "LED")
 		(property "Reference" "D6"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "User.2")
 			(uuid "0032c2e4-7605-49ba-9f3d-af3d7f0a1167")
 			(effects
 				(font
@@ -3149,8 +3149,8 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D7"
-			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(at 0 -1.8 0)
+			(layer "User.2")
 			(uuid "f1d49b26-8168-42c5-8eea-23162f8fe0b6")
 			(effects
 				(font
@@ -3423,7 +3423,7 @@
 		(tags "LED")
 		(property "Reference" "D3"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "User.2")
 			(uuid "b14d2eb5-dba1-41ca-8163-a7a62a4c7e4b")
 			(effects
 				(font
@@ -3696,7 +3696,7 @@
 		(tags "LED")
 		(property "Reference" "D5"
 			(at 0 -1.65 0)
-			(layer "F.SilkS")
+			(layer "User.2")
 			(uuid "64567f99-0fde-475f-a136-d1227620b717")
 			(effects
 				(font
@@ -8914,23 +8914,30 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 97.5 42.5)
-		(end 107.5 52.5)
+	(gr_poly
+		(pts
+			(xy 78.6 56.6) (xy 78.9 55.8) (xy 79.4 55) (xy 79.8 54.6) (xy 80.2 54.3) (xy 80.5 54.1) (xy 81 53.872222)
+			(xy 81.6 53.6) (xy 82.5 53.5) (xy 83.3 53.6) (xy 84 53.8) (xy 84.5 54.1) (xy 85.1 54.5) (xy 85.6 55)
+			(xy 85.9 55.5) (xy 86.2 56.1) (xy 86.4 56.9) (xy 86.5 57.4) (xy 86.3 58.6) (xy 86 59.4) (xy 85.7 59.9)
+			(xy 85.3 60.3) (xy 84.4 61) (xy 83.6 61.3) (xy 83.1 61.4) (xy 82.7 61.4) (xy 82.5 61.5) (xy 81.4 61.3)
+			(xy 80.4 60.9) (xy 79.7 60.3) (xy 79.1 59.5) (xy 78.9 59.2) (xy 78.7 58.6) (xy 78.6 58.1) (xy 78.5 57.5)
+			(xy 80.6 57.5) (xy 80.6 58.6) (xy 81.7 58.6) (xy 81.7 59.8) (xy 83.3 59.8) (xy 83.3 58.6) (xy 84.4 58.6)
+			(xy 84.4 56.4) (xy 82.6 56.4) (xy 82 56.4) (xy 80.6 56.4) (xy 80.6 57.5) (xy 78.5 57.5)
+		)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "0c883252-48ef-4fbf-96e1-523c1cc3c16a")
+		(uuid "36949f9d-12d6-4651-9a73-183891bb58a6")
 	)
 	(gr_circle
 		(center 102.5 37.5)
-		(end 102.5 42.5)
+		(end 106.5 37.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
@@ -8938,131 +8945,173 @@
 	)
 	(gr_circle
 		(center 102.5 57.5)
-		(end 102.5 62.5)
+		(end 106.5 57.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "6aa8601b-d607-4828-aeb6-ed81402a1c99")
 	)
-	(gr_rect
-		(start 97.5 32.5)
-		(end 107.5 42.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "6bbbc2fc-0609-4cf9-a15a-383b749e85d3")
-	)
 	(gr_circle
 		(center 82.5 37.5)
-		(end 82.5 42.5)
+		(end 86.5 37.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "70e418e5-ebc2-45e9-9032-1740bd06cf1a")
 	)
-	(gr_rect
-		(start 77.5 42.5)
-		(end 87.5 52.5)
+	(gr_poly
+		(pts
+			(xy 78.6 36.6) (xy 78.9 35.8) (xy 79.4 35) (xy 79.8 34.6) (xy 80.2 34.3) (xy 80.5 34.1) (xy 81 33.872222)
+			(xy 81.6 33.6) (xy 82.5 33.5) (xy 83.3 33.6) (xy 84 33.8) (xy 84.5 34.1) (xy 85.1 34.5) (xy 85.6 35)
+			(xy 85.9 35.5) (xy 86.2 36.1) (xy 86.4 36.9) (xy 86.5 37.4) (xy 86.3 38.6) (xy 86 39.4) (xy 85.7 39.9)
+			(xy 85.3 40.3) (xy 84.4 41) (xy 83.6 41.3) (xy 83.1 41.4) (xy 82.7 41.4) (xy 82.5 41.5) (xy 81.4 41.3)
+			(xy 80.4 40.9) (xy 79.7 40.3) (xy 79.1 39.5) (xy 78.9 39.2) (xy 78.7 38.6) (xy 78.6 38.1) (xy 78.5 37.5)
+			(xy 80.6 37.5) (xy 80.6 38.6) (xy 81.7 38.6) (xy 81.7 39.8) (xy 83.3 39.8) (xy 83.3 38.6) (xy 84.4 38.6)
+			(xy 84.4 36.4) (xy 82.6 36.4) (xy 82 36.4) (xy 80.6 36.4) (xy 80.6 37.5) (xy 78.5 37.5)
+		)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "75803999-e69f-4a04-be5f-44cd17167890")
+		(uuid "755e2199-3bb1-4db3-a90e-ec74a5c2b8d5")
+	)
+	(gr_poly
+		(pts
+			(xy 98.6 36.6) (xy 98.9 35.8) (xy 99.4 35) (xy 99.8 34.6) (xy 100.2 34.3) (xy 100.5 34.1) (xy 101 33.872222)
+			(xy 101.6 33.6) (xy 102.5 33.5) (xy 103.3 33.6) (xy 104 33.8) (xy 104.5 34.1) (xy 105.1 34.5) (xy 105.6 35)
+			(xy 105.9 35.5) (xy 106.2 36.1) (xy 106.4 36.9) (xy 106.5 37.4) (xy 106.3 38.6) (xy 106 39.4) (xy 105.7 39.9)
+			(xy 105.3 40.3) (xy 104.4 41) (xy 103.6 41.3) (xy 103.1 41.4) (xy 102.7 41.4) (xy 102.5 41.5) (xy 101.4 41.3)
+			(xy 100.4 40.9) (xy 99.7 40.3) (xy 99.1 39.5) (xy 98.9 39.2) (xy 98.7 38.6) (xy 98.6 38.1) (xy 98.5 37.5)
+			(xy 100.6 37.5) (xy 100.6 38.6) (xy 101.7 38.6) (xy 101.7 39.8) (xy 103.3 39.8) (xy 103.3 38.6) (xy 104.4 38.6)
+			(xy 104.4 36.4) (xy 102.6 36.4) (xy 102 36.4) (xy 100.6 36.4) (xy 100.6 37.5) (xy 98.5 37.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "95b31751-6b93-4b2e-b9d9-f18e3eae730e")
+	)
+	(gr_poly
+		(pts
+			(xy 98.6 46.6) (xy 98.9 45.8) (xy 99.4 45) (xy 99.8 44.6) (xy 100.2 44.3) (xy 100.5 44.1) (xy 101 43.872222)
+			(xy 101.6 43.6) (xy 102.5 43.5) (xy 103.3 43.6) (xy 104 43.8) (xy 104.5 44.1) (xy 105.1 44.5) (xy 105.6 45)
+			(xy 105.9 45.5) (xy 106.2 46.1) (xy 106.4 46.9) (xy 106.5 47.4) (xy 106.3 48.6) (xy 106 49.4) (xy 105.7 49.9)
+			(xy 105.3 50.3) (xy 104.4 51) (xy 103.6 51.3) (xy 103.1 51.4) (xy 102.7 51.4) (xy 102.5 51.5) (xy 101.4 51.3)
+			(xy 100.4 50.9) (xy 99.7 50.3) (xy 99.1 49.5) (xy 98.9 49.2) (xy 98.7 48.6) (xy 98.6 48.1) (xy 98.5 47.5)
+			(xy 100.6 47.5) (xy 100.6 48.6) (xy 101.7 48.6) (xy 101.7 49.8) (xy 103.3 49.8) (xy 103.3 48.6) (xy 104.4 48.6)
+			(xy 104.4 46.4) (xy 102.6 46.4) (xy 102 46.4) (xy 100.6 46.4) (xy 100.6 47.5) (xy 98.5 47.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9e037871-291a-4a08-82ce-bf22d3781803")
+	)
+	(gr_poly
+		(pts
+			(xy 98.6 56.6) (xy 98.9 55.8) (xy 99.4 55) (xy 99.8 54.6) (xy 100.2 54.3) (xy 100.5 54.1) (xy 101 53.872222)
+			(xy 101.6 53.6) (xy 102.5 53.5) (xy 103.3 53.6) (xy 104 53.8) (xy 104.5 54.1) (xy 105.1 54.5) (xy 105.6 55)
+			(xy 105.9 55.5) (xy 106.2 56.1) (xy 106.4 56.9) (xy 106.5 57.4) (xy 106.3 58.6) (xy 106 59.4) (xy 105.7 59.9)
+			(xy 105.3 60.3) (xy 104.4 61) (xy 103.6 61.3) (xy 103.1 61.4) (xy 102.7 61.4) (xy 102.5 61.5) (xy 101.4 61.3)
+			(xy 100.4 60.9) (xy 99.7 60.3) (xy 99.1 59.5) (xy 98.9 59.2) (xy 98.7 58.6) (xy 98.6 58.1) (xy 98.5 57.5)
+			(xy 100.6 57.5) (xy 100.6 58.6) (xy 101.7 58.6) (xy 101.7 59.8) (xy 103.3 59.8) (xy 103.3 58.6) (xy 104.4 58.6)
+			(xy 104.4 56.4) (xy 102.6 56.4) (xy 102 56.4) (xy 100.6 56.4) (xy 100.6 57.5) (xy 98.5 57.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ab4d401d-5daa-4d82-baf8-c0ff5ba897fa")
 	)
 	(gr_circle
 		(center 82.5 57.5)
-		(end 82.5 62.5)
+		(end 86.5 57.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "ac941008-7552-4454-a6bf-dfda239d6034")
 	)
-	(gr_rect
-		(start 77.5 32.5)
-		(end 87.5 42.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "b49680a8-5ac1-485f-b09f-0d77c16de058")
-	)
 	(gr_circle
 		(center 82.5 47.5)
-		(end 82.5 52.5)
+		(end 86.5 47.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "c6579366-d349-4608-8a53-ee0462a90463")
 	)
-	(gr_rect
-		(start 87.5 42.5)
-		(end 97.5 52.5)
+	(gr_poly
+		(pts
+			(xy 88.6 46.6) (xy 88.9 45.8) (xy 89.4 45) (xy 89.8 44.6) (xy 90.2 44.3) (xy 90.5 44.1) (xy 91 43.872222)
+			(xy 91.6 43.6) (xy 92.5 43.5) (xy 93.3 43.6) (xy 94 43.8) (xy 94.5 44.1) (xy 95.1 44.5) (xy 95.6 45)
+			(xy 95.9 45.5) (xy 96.2 46.1) (xy 96.4 46.9) (xy 96.5 47.4) (xy 96.3 48.6) (xy 96 49.4) (xy 95.7 49.9)
+			(xy 95.3 50.3) (xy 94.4 51) (xy 93.6 51.3) (xy 93.1 51.4) (xy 92.7 51.4) (xy 92.5 51.5) (xy 91.4 51.3)
+			(xy 90.4 50.9) (xy 89.7 50.3) (xy 89.1 49.5) (xy 88.9 49.2) (xy 88.7 48.6) (xy 88.6 48.1) (xy 88.5 47.5)
+			(xy 90.6 47.5) (xy 90.6 48.6) (xy 91.7 48.6) (xy 91.7 49.8) (xy 93.3 49.8) (xy 93.3 48.6) (xy 94.4 48.6)
+			(xy 94.4 46.4) (xy 92.6 46.4) (xy 92 46.4) (xy 90.6 46.4) (xy 90.6 47.5) (xy 88.5 47.5)
+		)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "d3189145-354b-4f3e-8cba-0d42ab37f410")
+		(uuid "cfdbefe5-0cae-46b8-b986-58348ba3404d")
 	)
 	(gr_circle
 		(center 92.5 47.5)
-		(end 92.5 52.5)
+		(end 96.5 47.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "d5625a6c-dc0a-4c6e-8ea1-9b659ab78748")
 	)
-	(gr_rect
-		(start 77.5 52.5)
-		(end 87.5 62.5)
+	(gr_poly
+		(pts
+			(xy 78.6 46.6) (xy 78.9 45.8) (xy 79.4 45) (xy 79.8 44.6) (xy 80.2 44.3) (xy 80.5 44.1) (xy 81 43.872222)
+			(xy 81.6 43.6) (xy 82.5 43.5) (xy 83.3 43.6) (xy 84 43.8) (xy 84.5 44.1) (xy 85.1 44.5) (xy 85.6 45)
+			(xy 85.9 45.5) (xy 86.2 46.1) (xy 86.4 46.9) (xy 86.5 47.4) (xy 86.3 48.6) (xy 86 49.4) (xy 85.7 49.9)
+			(xy 85.3 50.3) (xy 84.4 51) (xy 83.6 51.3) (xy 83.1 51.4) (xy 82.7 51.4) (xy 82.5 51.5) (xy 81.4 51.3)
+			(xy 80.4 50.9) (xy 79.7 50.3) (xy 79.1 49.5) (xy 78.9 49.2) (xy 78.7 48.6) (xy 78.6 48.1) (xy 78.5 47.5)
+			(xy 80.6 47.5) (xy 80.6 48.6) (xy 81.7 48.6) (xy 81.7 49.8) (xy 83.3 49.8) (xy 83.3 48.6) (xy 84.4 48.6)
+			(xy 84.4 46.4) (xy 82.6 46.4) (xy 82 46.4) (xy 80.6 46.4) (xy 80.6 47.5) (xy 78.5 47.5)
+		)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "dc4fc9d2-99c8-426a-8055-be374bcff977")
-	)
-	(gr_rect
-		(start 97.5 52.5)
-		(end 107.5 62.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "dc6f3710-d194-483c-bb8d-3cd2fcfbf1b1")
+		(uuid "ebf390ae-4f7c-456a-b307-6cc0237d0636")
 	)
 	(gr_circle
 		(center 102.5 47.5)
-		(end 102.5 52.5)
+		(end 106.5 47.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
