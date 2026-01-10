@@ -6389,7 +6389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "DSHP-01-TJ-GER"
+		(property "Manufacturer Part Number" "CHS-01B1"
 			(at 44.45 115.57 90)
 			(effects
 				(font
@@ -6407,7 +6407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" "C7471388"
+		(property "Vendor Part Number" " C3312309"
 			(at 44.45 115.57 90)
 			(effects
 				(font
