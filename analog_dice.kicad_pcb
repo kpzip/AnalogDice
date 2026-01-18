@@ -6857,7 +6857,7 @@
 			(net 1 "Net-(BT1-+)")
 			(pinfunction "+")
 			(pintype "passive")
-			(uuid "042eb957-32a6-480c-8ff8-2fa21aa5a3fb")
+			(uuid "9f497bff-bb86-40b0-be1b-b80e706bbd98")
 		)
 		(pad "2" smd circle
 			(at 0 0 180)
